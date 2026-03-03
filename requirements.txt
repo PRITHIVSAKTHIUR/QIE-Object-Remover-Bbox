@@ -8,7 +8,8 @@ torchvision
 kernels
 spaces
 hf_xet
-gradio #gradio@6
+gradio #gradio@6.3.0
 torch==2.8.0
 numpy
+
 av
