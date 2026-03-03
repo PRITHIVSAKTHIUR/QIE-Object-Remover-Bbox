@@ -1060,5 +1060,7 @@ with gr.Blocks() as demo:
 if __name__ == "__main__":
     demo.launch(
         css=css, theme=purple_theme,
-        mcp_server=True, ssr_mode=False, show_error=True
+        mcp_server=True, ssr_mode=False, 
+        show_error=True
     )
+
