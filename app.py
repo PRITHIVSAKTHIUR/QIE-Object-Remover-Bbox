@@ -930,7 +930,7 @@ bbox_drawer_js = r"""
 with gr.Blocks() as demo:
     gr.Markdown("# **QIE-Object-Remover-Bbox**", elem_id="main-title")
     gr.Markdown(
-        "Perform diverse image edits using a specialized [LoRA](https://huggingface.co/prithivMLmods/QIE-2511-Object-Remover-v2). "
+        "Perform diverse image edits using a specialized [LoRA](https://huggingface.co/prithivMLmods/QIE-2509-Object-Remover-Bbox). "
         "Upload an image directly into the bounding box editor area below, draw red bounding boxes over the objects you want to remove, and click Remove Object. "
         "Multiple boxes supported. Select, move, resize or delete individual boxes.",
         elem_id="subtitle",
@@ -1023,7 +1023,7 @@ with gr.Blocks() as demo:
             run_btn = gr.Button("\U0001F5D1\uFE0F Remove Object", variant="primary", size="lg")
 
         with gr.Column(scale=1):
-            result = gr.Image(label="Output Image", height=475)
+            result = gr.Image(label="Output Image", height=475, format="png")
             preview = gr.Image(label="Input Sent to Model (with red boxes)", height=415)
 
             with gr.Accordion("Advanced Settings", open=False, visible=False):
@@ -1060,7 +1060,5 @@ with gr.Blocks() as demo:
 if __name__ == "__main__":
     demo.launch(
         css=css, theme=purple_theme,
-        mcp_server=True, ssr_mode=False, 
-        show_error=True
+        mcp_server=True, ssr_mode=False, show_error=True
     )
-
