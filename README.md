@@ -1,4 +1,4 @@
-# **QIE-Object-Remover-Bbox**
+# **[QIE-Object-Remover-Bbox](https://huggingface.co/spaces/prithivMLmods/QIE-Object-Remover-Bbox)**
 
 QIE-Object-Remover-Bbox is an advanced, AI-powered image editing application specifically designed to perform precise object removal and background inpainting based on user-defined bounding box coordinates. By leveraging sophisticated vision-language models—likely from the Qwen family, as indicated by the project structure—the tool allows users to accurately isolate unwanted elements within an image. Once a target region is designated, the underlying model seamlessly removes the object and intelligently fills the void with contextually appropriate textures and pixels, ensuring that the final image looks natural and undisturbed. The application is built entirely in Python and features a user-friendly Gradio web interface, making high-precision image manipulation accessible without requiring complex manual editing skills.
 
