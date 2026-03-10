@@ -932,7 +932,7 @@ with gr.Blocks() as demo:
     gr.Markdown(
         "Perform diverse image edits using a specialized [LoRA](https://huggingface.co/prithivMLmods/QIE-2509-Object-Remover-Bbox). "
         "Upload an image directly into the bounding box editor area below, draw red bounding boxes over the objects you want to remove, and click Remove Object. "
-        "Multiple boxes supported. Select, move, resize or delete individual boxes.",
+        "Multiple boxes supported. Select, move, resize or delete individual boxes. Open on [GitHub](https://github.com/PRITHIVSAKTHIUR/QIE-Object-Remover-Bbox)",
         elem_id="subtitle",
     )
 
